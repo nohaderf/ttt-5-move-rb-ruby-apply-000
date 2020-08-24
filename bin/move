@@ -11,6 +11,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 
 input = gets.strip
-input_to_index(input) = index
+index = input_to_index(input)
 
-display_bpard()
+display_board()
